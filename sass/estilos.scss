@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,545&display=swap');
+
+$list-style: 'Roboto', sans-serif;
+$title: #d60b0b !important;
+$label-style: 'Lora', serif;
+
+li {
+    font-family: $list-style;
+}
+
+h1 {
+    color: $title;
+}
+
+label {
+    font-family: $label-style;
+}
